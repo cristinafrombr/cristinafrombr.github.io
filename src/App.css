@@ -8,7 +8,7 @@ body {
   color: #fff;
 }
 
-.flex {
+header {
   display: flex;
   flex-direction: row;
 }
@@ -103,6 +103,10 @@ body {
   .project-image {
     width: 80px;
     height: 80px;
+  }
+
+  header {
+    display: block;
   }
 }
 

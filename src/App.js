@@ -7,7 +7,7 @@ const projects = [
     title: "Pamono website & vendor portal",
     description:
       "Developed and maintained a furniture e-commerce platform and a React.js app for vendor use",
-    image: "https://via.placeholder.com/150",
+    image: "./pamono.png",
     link: "https://www.pamono.com/",
   },
   {
@@ -15,15 +15,15 @@ const projects = [
     title: "Super Dario",
     description:
       "A simple game built with CSS animations and vanilla JavaScript",
-    image: "https://via.placeholder.com/150",
-    link: "https://cristinafrombr.github.io/reactnd-project-myreads-starter/",
+    image: "./dario.jpg",
+    link: "https://cristinafrombr.github.io/super-dario",
   },
   {
     id: 3,
     title: "Circula's CMS & product",
     description:
-      "Maintained the CMS and product web app for a German fintech company",
-    image: "https://via.placeholder.com/150",
+      "Maintained the CMS and product web app for German fintech company",
+    image: "./circula.jpg",
     link: "https://www.pamono.com/",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     title: "Moss onboarding features",
     description:
       "Developed key features for customer onboarding forms and the main dashboard",
-    image: "https://via.placeholder.com/150",
+    image: "./moss.jpg",
     link: "https://www.getmoss.com/en-gb",
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     title: "SmartTV app for major channel in Brazil",
     description:
       "Contributed to development of a SmartTV app to stream educational content, supporting all major TV brands, tablets, phones, and the web",
-    image: "https://via.placeholder.com/150",
+    image: "./futura.png",
     link: "https://futura.frm.org.br/",
   },
 ];
@@ -47,7 +47,7 @@ const projects = [
 function App() {
   return (
     <div className="portfolio-container">
-      <header className="flex">
+      <header>
         <h1>
           ACS <span>Senior Frontend Engineer</span>
         </h1>
