@@ -53,7 +53,10 @@ function App() {
         </h1>
         <div class="social-links">
           <div class="social-btn" id="upwork">
-            <a href="https://www.upwork.com/freelancers/~0191f73044c81603d1">
+            <a
+              target="_blank"
+              href="https://www.upwork.com/freelancers/~0191f73044c81603d1"
+            >
               <svg
                 class="social-svg"
                 viewBox="0 0 70 70"
@@ -66,7 +69,7 @@ function App() {
             </a>
           </div>
           <div class="social-btn" id="linkedin">
-            <a href="https://www.linkedin.com/in/acsfrontend/">
+            <a target="_blank" href="https://www.linkedin.com/in/acsfrontend/">
               <svg
                 class="social-svg"
                 viewBox="0 0 600 600"
@@ -92,7 +95,7 @@ function App() {
             </a>
           </div>
           <div class="social-btn" id="github">
-            <a href="https://github.com/cristinafrombr">
+            <a target="_blank" href="https://github.com/cristinafrombr">
               <svg
                 class="social-svg"
                 viewBox="0 0 600 600"
@@ -111,7 +114,10 @@ function App() {
             </a>
           </div>
           <div class="social-btn" id="curriculum">
-            <a href="https://cristinafrombr.github.io/ACS_Front-End.pdf">
+            <a
+              target="_blank"
+              href="https://cristinafrombr.github.io/ACS_Front-End.pdf"
+            >
               <svg
                 fill="#ffffff"
                 class="social-svg"
